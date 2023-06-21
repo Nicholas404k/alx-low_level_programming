@@ -7,11 +7,10 @@
 
 void print_alphabet(void)
 {
-	int n;
+	 char n;
 
-	for (n = 97; n <= 122; n++)
-	{
+	for (n = a; n <= z; n++)
 		_putchar('n');
-	}
+
 	_putchar('\n');
 }
