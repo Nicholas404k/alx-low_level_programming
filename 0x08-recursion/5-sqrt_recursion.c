@@ -30,5 +30,5 @@ int real_sqrt_recursion(int n, int i)
 				return (-1);
 			if (i * i == n)
 				return (i);
-			return (real_sqrt_recursion(n    , i + 1));
+			return (real_sqrt_recursion(n, i + 1));
 		}
