@@ -1,1 +1,1 @@
-First time doing static libaries  
+My first doing "what is static libaries all about"
