@@ -10,14 +10,15 @@
 
 int append_text_to_file(const char *filename, char *text_content)
 {
-	int count, o, w;
+	int count = 0, o, w;
 
 	if (filename == NULL)
 		return (-1);
 
 	if (text_content != NULL)
 	{
-		count = strlen(text_content);
+		for (count = 0; text_content[count];)
+			count++;
 	}
 
 	o = open(filename, O_WRONLY | O_APPEND);
