@@ -8,13 +8,11 @@
 
 char *rot13(char *str)
 {
-	char *ptr;
+	char *ptr = str;
 	char c;
 
 	if (str == NULL)
 		return (NULL);
-
-	*ptr = str;
 
 	while (*ptr != '\0')
 	{
