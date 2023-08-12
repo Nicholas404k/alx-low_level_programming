@@ -3,7 +3,6 @@
 /**
   *main - function that prints the
   *       Fibonacci numbers up to a given count
-  *@count: The number of Fibonacci numbers to be printed
   *Return: always 0
   */
 
@@ -15,7 +14,8 @@ int main(void)
 	int i;
 	int next;
 
-	printf("%d, %d", first, second);
+	printf("%d",first);
+	printf(", %d", second);
 
 	for (i = 3; i <= count; i++)
 	{
